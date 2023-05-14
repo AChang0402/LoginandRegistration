@@ -1,0 +1,202 @@
+body * {
+  font-family:"Calibri";
+  margin:0;
+  padding:0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* body * {
+  outline: 1px red solid;
+} */
+
+h1 {
+  font-size: 36px;
+}
+
+.container-width-50p {
+  width:50%;
+  margin: 0 auto
+}
+
+.container-width-60p {
+  width:60%;
+  margin: 0 auto
+}
+
+.container-fc {
+  width: fit-content;
+  margin: 0 auto;
+}
+.container-inherit {
+  width: inherit;
+  margin: 0 auto;
+}
+.container-max{
+  width:max-content;
+  margin:0 auto;
+}
+
+.border-2 {
+  border: black solid 2px;
+}
+
+.border-b-2 {
+  border-bottom: black solid 2px;
+}
+
+.padding-50 {
+  padding: 50px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-10 {
+  margin-top:10px;
+}
+.mr-10{
+  margin-right:10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+
+.m-0auto {
+  margin: 0 auto;
+}
+
+.asc {
+  align-self:center;
+}
+
+button {
+  box-shadow: 2px 2px 4px black;
+  cursor:pointer;
+  padding: 2px 5px;
+}
+
+.button-big {
+  width: 200px;
+  height: 100px;
+  cursor:pointer;
+}
+
+
+.underline {
+  text-decoration:underline;
+}
+
+.flex {
+  display:flex
+}
+
+.flex-1{
+  flex:1
+}
+
+.flex-2{
+  flex:2
+}
+
+.text-outline-1 {
+  -webkit-text-stroke-width: .25px;
+  -webkit-text-stroke-color: black;
+}
+
+.text-outline-2 {
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+}
+
+.fw-normal {
+  font-weight:normal;
+}
+
+.gray {
+  color: gray
+}
+
+.white{
+  color:white;
+}
+
+.red {
+  color:firebrick
+}
+.bg-yellow{
+  background-color:gold
+}
+.bg-red{
+  background-color: firebrick;
+}
+.bg-blue{
+  background-color: royalblue;
+}
+.bg-green{
+  background-color:forestgreen;
+}
+
+.tac {
+  text-align:center;
+}
+.tae {
+  text-align:end;
+}
+.asc{
+  align-self:center;
+}
+
+.jc-spacebetween {
+  justify-content: space-between;
+}
+.jc-center {
+  justify-content: center;
+}
+.jc-spacearound {
+  justify-content: space-around;
+}
+.jc-end {
+  justify-content:end;
+}
+.jc-start{
+  justify-content:start;
+}
+.aic {
+  align-items:center;
+}
+.vam {
+  vertical-align: middle;
+}
+
+.gap-20 {
+  gap:20px;
+}
+.gap-100{
+  gap:100px;
+}
+.gap-200{
+  gap:200px;
+}
+
+.position-relative{
+  position:relative;
+}
+
+.right-10 {
+  right:10px;
+}
+
+input{
+  padding: 2px 4px;
+}

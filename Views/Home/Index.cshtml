@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Login/Register";
+}
+
+<div class="flex gap-200 mt-50">
+    <div class="flex-1 flex jc-end">
+        <div>
+            @await Html.PartialAsync("_Register")
+        </div>
+    </div>
+    <div class="flex-1 flex jc-start">
+        <div>
+            @await Html.PartialAsync("_Login")
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+@model LoginUser
+<h1 class="tac">Login</h1>
+<form asp-action="Login" asp-controller="Home" method="post">
+    <div>
+        <div class="flex jc-end gap-20 mt-20 vim">
+            <label asp-for="EmailLogin" class="asc"></label>
+            <input asp-for="EmailLogin" class="fw-normal">
+        </div>
+        <div class="tae">
+            <span asp-validation-for="EmailLogin" class="red fw-normal position-relative right-10"></span>
+        </div>
+    </div>
+    <div>
+        <div class="flex jc-end gap-20 mt-20">
+            <label asp-for="PasswordLogin" class="asc"></label>
+            <input asp-for="PasswordLogin" class="fw-normal">
+        </div>
+        <div class="tae">
+            <span asp-validation-for="PasswordLogin" class="red fw-normal position-relative right-10"></span>
+        </div>
+    </div>
+    <div class="tae mt-20">
+        <button>Login</button>
+    </div>
+</form>
